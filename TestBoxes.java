@@ -1,23 +1,10 @@
 public class TestBoxes {
-    public static void main (String [] args){
-    
-    public TestBox (double a, double b ){
-        len = 6;
-        width = 2;
-    }
-
-    public double getArea(){
-        return len * width;
-    }
-
-    public double getPerimeter (){
-        double p = 2.0 * (len + width);
-        return p;
-    }
-
-    public void bigger (double f){
-        len = f * len;
-        width = f * width;
-    }
+   public static void main (String [] args){
+       Box Emma = new Box (2.0, 6.0);
+        double area = Emma.getArea();
+System.out.println("The area is " + area);
+        Emma.bigger (2.0);
+        double perimeter = Emma.getPerimeter();
+       System.out.println ("The perimeter is " + perimeter);
 }
 }

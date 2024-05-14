@@ -11,7 +11,7 @@ public class Box {
     }
 
     public double getPerimeter (){
-        double p = 2.0 * (len + wdith);
+        double p = 2.0 * (len + width);
         return p;
     }
 
