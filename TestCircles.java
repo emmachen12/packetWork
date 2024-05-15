@@ -7,6 +7,7 @@ public class TestCircles {
     System.out.println("Circumference: " + circum);
 
     double area = izzy.getArea();
+    System.out.println("Area: " + area);
 
     izzy.changeR(1.0);
 
